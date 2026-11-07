@@ -3,27 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="color-scheme" content="light dark" />
-    <link rel="icon" href="data:," />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" type="image/png" href="assets/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <title>Leyton's Wild ONE! — Contribute to Her Future</title>
     <meta name="description" content="Welcome to Leyton's Wild ONE! Celebrate her first birthday by contributing to her retirement fund — a gift for her future, invested automatically." />
-    <!-- Open Graph / iMessage / social link preview -->
+    <!-- Link preview (iMessage, WhatsApp, Facebook, etc.) -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Leyton's Wild ONE!" />
     <meta property="og:title" content="Leyton's Wild ONE! — Contribute to Her Future" />
-    <meta property="og:description" content="Welcome to Leyton's Wild ONE! Celebrate her first birthday by contributing to her retirement fund — a gift for her future, invested automatically." />
-    <meta property="og:url" content="https://leytons-wild-one.github.io/party/" />
-    <meta property="og:image" content="https://leytons-wild-one.github.io/party/assets/open-graph.png" />
-    <meta property="og:image:type" content="image/png" />
+    <meta property="og:description" content="She has zero income, zero expenses, and a retirement plan most adults envy. Celebrate Leyton's first birthday with a gift to her retirement fund — invested automatically." />
+    <meta property="og:url" content="https://leytons-wild-one.github.io/party/zero-income.html" />
+    <meta property="og:image" content="https://leytons-wild-one.github.io/party/share-preview.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="1200" />
-    <meta property="og:image:alt" content="Leyton's Wild ONE! — a cute baby elephant in a party hat with the words Contribute to Her Future" />
-    <!-- Twitter Card -->
+    <meta property="og:image:alt" content="A cute baby elephant in an orange party hat with balloons, bunting and jungle leaves" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Leyton's Wild ONE! — Contribute to Her Future" />
-    <meta name="twitter:description" content="Welcome to Leyton's Wild ONE! Celebrate her first birthday by contributing to her retirement fund — a gift for her future, invested automatically." />
-    <meta name="twitter:image" content="https://leytons-wild-one.github.io/party/assets/open-graph.png" />
-    <meta name="twitter:image:alt" content="Leyton's Wild ONE! — a cute baby elephant in a party hat with the words Contribute to Her Future" />
+    <meta name="twitter:description" content="She has zero income, zero expenses, and a retirement plan most adults envy. Celebrate Leyton's first birthday with a gift to her retirement fund — invested automatically." />
+    <meta name="twitter:image" content="https://leytons-wild-one.github.io/party/share-preview.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
@@ -215,11 +214,9 @@
       .invested-note {
         margin: 20px 0 0;
         text-align: center;
-        font-weight: 800;
-        color: var(--ink-soft);
-        line-height: 1.5;
-        font-size: 0.98rem;
+        font-weight: 700; color: var(--ink-soft); line-height: 1.5; font-size: 0.98rem;
       }
+      .invested-note strong { color: var(--ink); }
       /* ---------- Steps ---------- */
       .steps { margin-top: 30px; }
       .steps h2 {
@@ -361,8 +358,8 @@
         <span class="party-tag">You're invited to a wild celebration</span>
         <h1>Welcome to Leyton's <span class="wild">Wild</span> <span class="one">ONE!</span></h1>
         <p class="lede">
-          She's turning <strong>1 today</strong> — she can't walk, talk, or hold down a job yet…
-          but if you want to <strong>help her retire early</strong>, you're in the right place.
+          She has <strong>zero income</strong>, <strong>zero expenses</strong>, and a
+          <strong>retirement plan most adults envy</strong>.
           Skip the wrapping paper and add a gift straight to <strong>her future</strong> instead —
           every contribution goes into her <strong>retirement fund</strong> and is
           <strong>invested automatically</strong> for her.
@@ -489,7 +486,7 @@
         </p>
       </section>
 
-      <p class="invested-note">Contributions are invested automatically.</p>
+      <p class="invested-note">Contributions are <strong>invested automatically</strong>.</p>
 
       <section class="steps" aria-label="How it works">
         <h2>How it works</h2>
